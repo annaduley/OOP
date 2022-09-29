@@ -7,23 +7,6 @@ class employee:
         self.__monthlySalary = monthlySalary
 
 
-    def setName(self,name):
-        self.__name = name
-
-    def setIdNum(self,idNum):
-        self.__idNum = idNum
-
-    def setDepartment(self,department):
-        self.__department = department
-
-    def setJobTitle(self,jobTitle):
-        self.__jobTitle = jobTitle
-
-    def setMonthlySalary(self,monthlySalary):
-        self.__monthlySalary = monthlySalary
-
-
-
     def getName(self):
         return self.__name
 
